@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./App.css";
 
-const API = "/api";
+const API = process.env.REACT_APP_API_URL || "/api";
 
 function StatCard({ label, value, accent }) {
   return (
