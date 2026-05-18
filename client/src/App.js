@@ -1,7 +1,7 @@
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
+import Papa from "papaparse";
 
-const API = process.env.REACT_APP_API_URL || "/api";
 
 function StatCard({ label, value, accent }) {
   return (
@@ -59,18 +59,128 @@ export default function App() {
   const [order, setOrder] = useState("asc");
 
   useEffect(() => {
-    fetch(`${API}/stats`).then((r) => r.json()).then(setStats);
-  }, []);
+    Papa.parse("/placements.csv", {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: (results) => {
+        const rows = results.data;
 
-  const fetchData = useCallback(() => {
-    const params = new URLSearchParams({ search, branch, company, minCTC, maxCTC, sort, order, page, limit: 25 });
-    fetch(`${API}/placements?${params}`)
-      .then((r) => r.json())
-      .then((res) => { setData(res.data); setTotal(res.total); setPages(res.pages); });
-  }, [search, branch, company, minCTC, maxCTC, sort, order, page]);
+        // FILTERING
+        let filtered = rows.filter((row) => {
+          const matchesSearch =
+            !search ||
+            row.Name?.toLowerCase().includes(search.toLowerCase()) ||
+            row.Company?.toLowerCase().includes(search.toLowerCase());
 
-  useEffect(() => { setPage(1); }, [search, branch, company, minCTC, maxCTC, sort, order]);
-  useEffect(() => { fetchData(); }, [fetchData]);
+          const matchesBranch =
+            !branch || row.Branch === branch;
+
+          const matchesCompany =
+            !company || row.Company === company;
+
+          const ctc = parseFloat(row.CTC || 0);
+
+          const matchesMin =
+            !minCTC || ctc >= parseFloat(minCTC);
+
+          const matchesMax =
+            !maxCTC || ctc <= parseFloat(maxCTC);
+
+          return (
+            matchesSearch &&
+            matchesBranch &&
+            matchesCompany &&
+            matchesMin &&
+            matchesMax
+          );
+        });
+
+        // SORTING
+        filtered.sort((a, b) => {
+          let av = a[sort];
+          let bv = b[sort];
+
+          if (!isNaN(av) && !isNaN(bv)) {
+            av = parseFloat(av);
+            bv = parseFloat(bv);
+          }
+
+          if (av < bv) return order === "asc" ? -1 : 1;
+          if (av > bv) return order === "asc" ? 1 : -1;
+          return 0;
+        });
+
+        // PAGINATION
+        const limit = 25;
+        const start = (page - 1) * limit;
+        const paginated = filtered.slice(start, start + limit);
+
+        setData(paginated);
+        setTotal(filtered.length);
+        setPages(Math.ceil(filtered.length / limit));
+
+        // STATS
+        const ctcValues = rows.map((r) => parseFloat(r.CTC || 0));
+
+        const branches = [...new Set(rows.map((r) => r.Branch))];
+        const companies = [...new Set(rows.map((r) => r.Company))];
+
+        const branchStats = branches.map((b) => {
+          const branchRows = rows.filter((r) => r.Branch === b);
+
+          const avg =
+            branchRows.reduce(
+              (sum, r) => sum + parseFloat(r.CTC || 0),
+              0
+            ) / branchRows.length;
+
+          return {
+            branch: b,
+            avgCTC: avg.toFixed(2),
+          };
+        });
+
+        const companyMap = {};
+
+        rows.forEach((r) => {
+          companyMap[r.Company] =
+            (companyMap[r.Company] || 0) + 1;
+        });
+
+        const topCompanies = Object.entries(companyMap)
+          .map(([name, count]) => ({ name, count }))
+          .sort((a, b) => b.count - a.count)
+          .slice(0, 10);
+
+        setStats({
+          total: rows.length,
+          avgCTC:
+            (
+              ctcValues.reduce((a, b) => a + b, 0) /
+              ctcValues.length
+            ).toFixed(2),
+          maxCTC: Math.max(...ctcValues).toFixed(2),
+          minCTC: Math.min(...ctcValues).toFixed(2),
+          branches,
+          companies,
+          branchStats,
+          topCompanies,
+        });
+      },
+    });
+  }, [
+    search,
+    branch,
+    company,
+    minCTC,
+    maxCTC,
+    sort,
+    order,
+    page,
+  ]);
+
+
 
   const handleSort = (col) => {
     if (sort === col) setOrder((o) => (o === "asc" ? "desc" : "asc"));
