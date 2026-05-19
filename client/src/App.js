@@ -122,6 +122,12 @@ export default function App() {
 
         // STATS
         const ctcValues = rows.map((r) => parseFloat(r.CTC || 0));
+        const sorted = [...ctcValues].sort((a, b) => a - b);
+        const mid = Math.floor(sorted.length / 2);
+        const medianCTC = (sorted.length % 2 !== 0
+          ? sorted[mid]
+          : (sorted[mid - 1] + sorted[mid]) / 2
+        ).toFixed(2);
 
         const branches = [...new Set(rows.map((r) => r.Branch))];
         const companies = [...new Set(rows.map((r) => r.Company))];
@@ -140,7 +146,20 @@ export default function App() {
             avgCTC: avg.toFixed(2),
           };
         });
+        const branchMedianStats = branches.map((b) => {
+          const branchCTCs = rows
+            .filter((r) => r.Branch === b)
+            .map((r) => parseFloat(r.CTC || 0))
+            .sort((a, b) => a - b);
 
+          const mid = Math.floor(branchCTCs.length / 2);
+          const median = (branchCTCs.length % 2 !== 0
+            ? branchCTCs[mid]
+            : (branchCTCs[mid - 1] + branchCTCs[mid]) / 2
+          ).toFixed(2);
+
+          return { branch: b, medianCTC: median };
+        });
         const companyMap = {};
 
         rows.forEach((r) => {
@@ -162,9 +181,11 @@ export default function App() {
             ).toFixed(2),
           maxCTC: Math.max(...ctcValues).toFixed(2),
           minCTC: Math.min(...ctcValues).toFixed(2),
+          medianCTC,
           branches,
           companies,
           branchStats,
+          branchMedianStats,
           topCompanies,
         });
       },
@@ -179,8 +200,6 @@ export default function App() {
     order,
     page,
   ]);
-
-
 
   const handleSort = (col) => {
     if (sort === col) setOrder((o) => (o === "asc" ? "desc" : "asc"));
@@ -206,7 +225,7 @@ export default function App() {
       {stats && (
         <section className="stats-row">
           <StatCard label="Avg CTC" value={`₹${stats.avgCTC} LPA`} accent="#00e5a0" />
-          <StatCard label="Highest CTC" value={`₹${stats.maxCTC} LPA`} accent="#5b8aff" />
+          <StatCard label="Median CTC" value={`₹${stats.medianCTC} LPA`} accent="#00e5dd" />          <StatCard label="Highest CTC" value={`₹${stats.maxCTC} LPA`} accent="#5b8aff" />
           <StatCard label="Lowest CTC" value={`₹${stats.minCTC} LPA`} accent="#ffd166" />
           <StatCard label="Branches" value={stats.branches.length} accent="#ff6b6b" />
           <StatCard label="Companies" value={stats.companies.length} accent="#c77dff" />
@@ -286,6 +305,12 @@ export default function App() {
               title="Average CTC by Branch (LPA)"
             />
             <BarChart
+              data={stats.branchMedianStats}
+              valueKey="medianCTC"
+              labelKey="branch"
+              title="Median CTC by Branch (LPA)"
+            />
+            <BarChart
               data={stats.topCompanies}
               valueKey="count"
               labelKey="name"
@@ -295,7 +320,7 @@ export default function App() {
         </section>
       )}
 
-      <footer className="footer">MIT Manipal Placement Data · Built with Express + React</footer>
+      <footer className="footer">MIT Manipal Placement Data</footer>
     </div>
   );
 }
