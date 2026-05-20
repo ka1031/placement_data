@@ -1,7 +1,15 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Papa from "papaparse";
-
+import {
+  ScatterChart,
+  Scatter,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 function StatCard({ label, value, accent }) {
   return (
@@ -57,6 +65,7 @@ export default function App() {
   const [maxCTC, setMaxCTC] = useState("");
   const [sort, setSort] = useState("Rank");
   const [order, setOrder] = useState("asc");
+  const [allData, setAllData] = useState([]);
 
   useEffect(() => {
     Papa.parse("/placements.csv", {
@@ -65,6 +74,7 @@ export default function App() {
       skipEmptyLines: true,
       complete: (results) => {
         const rows = results.data;
+        setAllData(rows);
 
         // FILTERING
         let filtered = rows.filter((row) => {
@@ -316,6 +326,49 @@ export default function App() {
               labelKey="name"
               title="Top Hiring Companies"
             />
+            <div className="chart-box">
+              <div className="chart-title">
+                CGPA vs CTC
+              </div>
+
+              <div style={{ width: "100%", height: 400 }}>
+                <ResponsiveContainer>
+                  <ScatterChart
+                    margin={{
+                      top: 20,
+                      right: 20,
+                      bottom: 20,
+                      left: 10,
+                    }}
+                  >
+                    <CartesianGrid />
+
+                    <XAxis
+                      type="number"
+                      dataKey="CGPA"
+                      name="CGPA"
+                    />
+
+                    <YAxis
+                      type="number"
+                      dataKey="CTC"
+                      name="CTC"
+                      unit=" LPA"
+                    />
+
+                    <Tooltip
+                      cursor={{ strokeDasharray: "3 3" }}
+                    />
+
+                    <Scatter
+                      name="Students"
+                      data={allData}
+                      fill="#5b8aff"
+                    />
+                  </ScatterChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
           </div>
         </section>
       )}
