@@ -1,6 +1,6 @@
 # MIT Manipal Placement Dashboard
 
-A frontend-only React dashboard to browse and analyze MIT Manipal placement data directly from a CSV file.
+A React dashboard to browse and analyze MIT Manipal placement data.
 
 ## Features
 
@@ -11,10 +11,8 @@ A frontend-only React dashboard to browse and analyze MIT Manipal placement data
 - 📊 Analytics dashboard
   - Average CTC by branch
   - Top hiring companies
-- ⚡ No backend required
+  - Scatter plot visualization for CTC vs CGPA analysis
 - 📄 Reads data directly from CSV using PapaParse
-
----
 
 ## Tech Stack
 
@@ -22,11 +20,5 @@ A frontend-only React dashboard to browse and analyze MIT Manipal placement data
 - PapaParse
 - CSS
 
----
 
-## Setup
-
-### 1. Install dependencies
-
-```bash
-npm install
+🔗 Deployed Link:https://placement-data-1.onrender.com/
