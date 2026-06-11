@@ -1,0 +1,606 @@
+Rank,Name,Branch,CGPA,Company,Role,Stipend,Stipend LPA
+1,Rohit Sangubotla,Computer & Communication (CC),9.20,D E Shaw PPO,P+I,1.80,1.80
+2,Triyan Mukherjee,Computer & Communication (CC),8.66,Goldman Sachs PPO,P+I,1.62,1.62
+3,Avadhanam Ruthvik,Computer & Communication (CC),8.55,Goldman Sachs PPO,P+I,1.62,1.62
+4,Pragya Gupta,Computer & Communication (CC),7.93,Goldman Sachs PPO,P+I,1.62,1.62
+5,Ira Lath Gupta,Computer Science (CS),9.55,Goldman Sachs PPO,P+I,1.62,1.62
+6,Areen Chakraborty,Computer Science (CS),9.45,Goldman Sachs PPO,P+I,1.62,1.62
+7,Saivya Singh,Computer Science (CS),7.73,Arcesium,I,1.25,1.25
+8,Anaadhi Mongia,Computer & Communication (CC),7.98,Arcesium,I,1.25,1.25
+9,Kirtan Hemantkumar Desai,CSE AIML,8.58,LinkedIn PPO,P+I,1.10,1.10
+10,Shaurya Jindal,Computer & Communication (CC),6.98,Amazon SDE,I,1.10,1.10
+11,Chiranth Reddy Kapu,Computer Science (CS),6.95,Amazon SDE,I,1.10,1.10
+12,Sahil Shah,Computer Science (CS),7.65,Amazon SDE,I,1.10,1.10
+13,Arhaan Girdhar,CSE AIML,6.57,Amazon SDE,I,1.10,1.10
+14,Priyanshu Bhardwaj,CSE AIML,7.12,Amazon SDE,I,1.10,1.10
+15,Anirudh Swaminathan,Data Science (DS),8.72,Amazon SDE,I,1.10,1.10
+16,Rajeev Kunapareddy,Data Science (DS),6.57,Amazon SDE,I,1.10,1.10
+17,Avinash Raj,Information Technology (IT),6.88,Amazon SDE,I,1.10,1.10
+18,Nidhi Hegde,Electronics & Communication (EC),8.01,Apple,I,1.05,1.05
+19,Balaji Ramadhurai,CSE AIML,9.21,Apple,I,1.05,1.05
+20,Dasi Yashasvi,CSE AIML,9.20,Indus Insights(I2P),P+I,1.00,1.00
+21,Pranav Kumar Gupta,CSE AIML,8.28,Indus Insights(I2P),P+I,1.00,1.00
+22,Mehul Garg,Data Science (DS),8.43,Indus Insights(I2P),P+I,1.00,1.00
+23,Gandhi Avadh,Data Science (DS),7.78,Indus Insights(I2P),P+I,1.00,1.00
+24,Nishit Kashyap,Electronics & Communication (EC),7.66,Indus Insights(I2P),P+I,1.00,1.00
+25,Kevin Cyriac Joseph,Mechanical (ME),8.10,Indus Insights(I2P),P+I,1.00,1.00
+26,Ginnel Quadras,Industrial Engineering (IE),8.96,Indus Insights,P+I,1.00,1.00
+27,Kirtan Somani,Mechatronics (MT),8.15,Indus Insights,P+I,1.00,1.00
+28,Dasi Yashasvi,CSE AIML,9.20,Indus Insights,I,1.00,1.00
+29,Pranav Kumar Gupta,CSE AIML,8.28,Indus Insights,I,1.00,1.00
+30,Mehul Garg,Data Science (DS),8.43,Indus Insights,I,1.00,1.00
+31,Gandhi Avadh,Data Science (DS),7.78,Indus Insights,I,1.00,1.00
+32,Nishit Kashyap,Electronics & Communication (EC),7.66,Indus Insights,I,1.00,1.00
+33,Kevin Cyriac Joseph,Mechanical (ME),8.10,Indus Insights,I,1.00,1.00
+34,Anish V R,Electronics & Communication (EC),7.79,CISCO (HW),P+I,0.98,0.98
+35,Madhukori Chatterjee,Electronics & Communication (EC),7.39,CISCO (HW),P+I,0.98,0.98
+36,Kingshuk Ghosh,Electronics & Communication (EC),6.83,CISCO (HW),P+I,0.98,0.98
+37,Yogesh Prashant Rane,Computer & Communication (CC),9.29,Cisco PPO,P+I,0.98,0.98
+38,Nishant Gunda,Computer Science (CS),9.00,Cisco PPO,P+I,0.98,0.98
+39,David Jijo Nellissery,Computer Science (CS),7.73,Cisco PPO,P+I,0.98,0.98
+40,Ayush Jayesh Dharaskar,Information Technology (IT),9.04,Cisco PPO,P+I,0.98,0.98
+41,Aishwarya Vaidya,Information Technology (IT),7.55,Cisco PPO,P+I,0.98,0.98
+42,Adwaiy Singh,Data Science (DS),8.62,Cisco (SW),I,0.98,0.98
+43,Shreya . T,Data Science (DS),8.58,Cisco (BA),I,0.98,0.98
+44,Baibhav Mishra,CSE AIML,8.57,VISA PPO,P+I,0.90,0.90
+45,Promit Biswas,Information Technology (IT),9.16,DBS Technology,I,0.90,0.90
+46,Swastik Nayak,Computer & Communication (CC),7.12,PureStorage (DTG),I,0.90,0.90
+47,Sathvik Ujwal,CSE AIML,7.36,PureStorage (DTG),I,0.90,0.90
+48,Viraj Edlabadkar,CSE AIML,7.33,PureStorage (DTG),I,0.90,0.90
+49,Aditya Verma,Information Technology (IT),8.14,PureStorage (DV WM),I,0.90,0.90
+50,Amarnath B Bhat,Computer & Communication (CC),9.48,JP Morgan PPO,P+I,0.80,0.80
+51,Pokuri Tejeswar,Computer Science (CS),9.42,JP Morgan PPO,P+I,0.80,0.80
+52,Arav Chadda,Computer Science (CS),9.36,JP Morgan PPO,P+I,0.80,0.80
+53,Akshat Sharan,Computer Science (CS),7.24,Okta India,P+I,0.80,0.80
+54,Yash Thadani,Computer Science (CS),7.22,Okta India,P+I,0.80,0.80
+55,Kajal Biju,Cyber Physical Systems (CPS),8.15,Okta India,P+I,0.80,0.80
+56,Roopanshi Juneja,Information Technology (IT),7.45,Okta India,P+I,0.80,0.80
+57,Dharuni R Acharya,Computer Science (CS),9.60,Nvidia,I,0.80,0.80
+58,Aryan Gupta,Computer Science (CS),8.72,Kenvue PPO,P+I,0.75,0.75
+59,Morvin Prajapati,CSE AIML,8.64,Saviynt,P+I,0.70,0.70
+60,Jeffin Joffy P,CSE AIML,8.58,Saviynt,P+I,0.70,0.70
+61,Harshita Jangir,CSE AIML,8.49,Saviynt,P+I,0.70,0.70
+62,Aashna Baheti,CSE AIML,7.89,Saviynt,P+I,0.70,0.70
+63,Ashwin Bhat,CSE AIML,7.64,Saviynt,P+I,0.70,0.70
+64,Srujana Madiraju,Information Technology (IT),8.26,Saviynt,P+I,0.70,0.70
+65,Vannela Harshavardhan Reddy,Information Technology (IT),7.57,Saviynt,P+I,0.70,0.70
+66,Uppaluri Jahnavi,Computer & Communication (CC),8.22,Meesho,P+I,0.70,0.70
+67,Shambhavi Jha,Computer & Communication (CC),7.88,Meesho,P+I,0.70,0.70
+68,Arpit Jha,Computer Science (CS),7.46,Meesho,P+I,0.70,0.70
+69,Sriram Sunderrajan,CSE AIML,9.41,Meesho,P+I,0.70,0.70
+70,Kavish Shah,CSE AIML,8.88,Meesho,P+I,0.70,0.70
+71,Kshitij Sohoni,Data Science (DS),9.51,Meesho,P+I,0.70,0.70
+72,Ayushman Ranjan,Data Science (DS),8.79,Meesho,P+I,0.70,0.70
+73,Vyjayanthi Seshadri,Electronics & Communication (EC),8.61,Meesho,P+I,0.70,0.70
+74,Laksh Paprunia,Computer & Communication (CC),7.38,Meesho (Sr. Associate),P+I,0.70,0.70
+75,Pranav Akella,Computer Science (CS),6.30,Meesho (Sr. Associate),P+I,0.70,0.70
+76,Vibhas Srivastava,Mechanical (ME),8.49,Meesho (Sr. Associate),P+I,0.70,0.70
+77,Jishnu Vutukuru,Mechanical (ME),8.21,Meesho (Sr. Associate),P+I,0.70,0.70
+78,Christie Mathews,CSE AIML,8.55,Amazon Tech,I,0.70,0.70
+79,Rhea Tiwari,CSE AIML,8.03,Amazon Tech,I,0.70,0.70
+80,Kshitij Mitra,Computer Science (CS),9.61,Amazon Tech,I,0.70,0.70
+81,Kartik Subbaram,Computer Science (CS),9.40,Amazon Tech,I,0.70,0.70
+82,Drishya Gopalakrishnan,Computer Science (CS),7.75,Amazon Tech,I,0.70,0.70
+83,Samyak Singh,Data Science (DS),8.96,Amazon Tech,I,0.70,0.70
+84,PUTTA NITHISH REDDY,Information Technology (IT),8.45,Amazon Tech,I,0.70,0.70
+85,Rushank Kale,Information Technology (IT),8.17,Amazon Tech,I,0.70,0.70
+86,Narayani Sharma,Computer Science (CS),6.78,Amazon Non Tech,I,0.70,0.70
+87,Aditya Dwarkani,Data Science (DS),9.21,Amazon Non Tech,I,0.70,0.70
+88,Mangalam Anand Sontakke,Data Science (DS),8.69,Amazon Non Tech,I,0.70,0.70
+89,Miriyala Amruni,Data Science (DS),8.52,Amazon Non Tech,I,0.70,0.70
+90,Arushi Darbari,Data Science (DS),8.33,Amazon Non Tech,I,0.70,0.70
+91,Gurmann Singh Ajmani,Data Science (DS),8.14,Amazon Non Tech,I,0.70,0.70
+92,Utkarsh Singh,Data Science (DS),7.97,Amazon Non Tech,I,0.70,0.70
+93,Shourya Singh,Data Science (DS),7.43,Amazon Non Tech,I,0.70,0.70
+94,Naman Maheshwari,Data Science (DS),7.42,Amazon Non Tech,I,0.70,0.70
+95,Hemang Malik,Data Science (DS),6.91,Amazon Non Tech,I,0.70,0.70
+96,Yoihen Elangbam,Data Science (DS),6.79,Amazon Non Tech,I,0.70,0.70
+97,Matthew Arnold Joseph Saldanha,Mechatronics (MT),7.81,Amazon Non Tech,I,0.70,0.70
+98,Anirudh Rajesh Nayak,Mechatronics (MT),7.52,Amazon Non Tech,I,0.70,0.70
+99,Dev Vasudevan,CSE AIML,8.74,Harness,I,0.70,0.70
+100,Arham Dugar,CSE AIML,8.50,Harness,I,0.70,0.70
+101,Anish Setya,CSE AIML,7.87,Harness,I,0.70,0.70
+102,Mihir Kumar Singh,Data Science (DS),7.45,Harness,I,0.70,0.70
+103,Atharva Parag Chepe,Information Technology (IT),7.99,Harness,I,0.70,0.70
+104,Darren Dmello,Aeronautical (AE),6.84,Goldman Sachs (Operation),I,0.70,0.70
+105,Arushi Thakur,Computer & Communication (CC),7.33,Goldman Sachs (AWM M),I,0.70,0.70
+106,Laven Srivastava,CSE AIML,7.92,Goldman Sachs (GMLM),I,0.70,0.70
+107,Shaurya Gupta,CSE AIML,6.50,Goldman Sachs (Operation),I,0.70,0.70
+108,Ayush Shetty,Cyber Physical Systems (CPS),7.41,Goldman Sachs (GMLM),I,0.70,0.70
+109,Parv Goel,Electronics & Communication (EC),7.91,Goldman Sachs (Operation),I,0.70,0.70
+110,Siddhartha Chhauda,Information Technology (IT),7.72,Goldman Sachs (Operation),I,0.70,0.70
+111,Ayush Acharya,Mechatronics (MT),7.83,Goldman Sachs (Operation),I,0.70,0.70
+112,Mithil Mallya,Mechatronics (MT),6.84,Goldman Sachs (Operation),I,0.70,0.70
+113,Aditya Agarwal,Computer Science (CS),6.67,Amazon (DE),I,0.70,0.70
+114,Shubhangi Shree,Computer Science (CS),6.37,Myntra,I,0.70,0.70
+115,Mandavilli Venkat Sri Vatsa,Aeronautical (AE),9.30,"Amazon Manager I, Operations",I,0.70,0.70
+116,Mihika Rungta,Biomedical (BM),8.61,Amazon Program Manager I,I,0.70,0.70
+117,Adhvik Hegde,Mechatronics (MT),8.99,Amazon Program Manager I,I,0.70,0.70
+118,Rishita Dhulipalla,Mechatronics (MT),8.45,Amazon Program Manager I,I,0.70,0.70
+119,Adya Periwal,Biomedical (BM),8.41,Amazon Program Manager I,I,0.70,0.70
+120,Hem Gosalia,Mechatronics (MT),7.87,Amazon Program Manager I,I,0.70,0.70
+121,Priyam Agarwala,Mechatronics (MT),7.82,Amazon Program Manager I,I,0.70,0.70
+122,Aryan Nijamkar,Computer & Communication (CC),7.21,Amazon Data Engineer I,I,0.70,0.70
+123,Shreehith Ala,Computer & Communication (CC),7.11,Amazon Business Intel Engineer I,I,0.70,0.70
+124,Sparsh Raj,Computer Science (CS),7.25,Amazon Quality Assurance Engineer I,I,0.70,0.70
+125,Amitesh Jha,Electronics & Communication (EC),7.11,Amazon Quality Assurance Engineer I,I,0.70,0.70
+126,Akash Gupta,Information Technology (IT),7.64,Amazon Data Engineer I,I,0.70,0.70
+127,Suprotiv Moitra,Computer Science (CS),9.57,MUFG,P+I,0.65,0.65
+128,Navya Gupta,Data Science (DS),8.69,MUFG,P+I,0.65,0.65
+129,Raghav Singhal,Information Technology (IT),9.46,MUFG,P+I,0.65,0.65
+130,Lakshay Chauhan,Information Technology (IT),8.71,MUFG,P+I,0.65,0.65
+131,Aditya Amit Kinjawadekar,Electrical & Electronics (EE),8.93,Fischer Jordan PPO,P+I,0.60,0.60
+132,Sathu Ashrith,Computer Science (CS),7.11,Fischer Jordan PPO,P+I,0.60,0.60
+133,Anushri Sakhardande,Computer & Communication (CC),9.36,Oracle,P+I,0.60,0.60
+134,Aarya R,Computer Science (CS),9.09,Oracle,P+I,0.60,0.60
+135,Krish Didwania,CSE AIML,9.20,Oracle,P+I,0.60,0.60
+136,Navya Kulhari,CSE AIML,8.93,Oracle,P+I,0.60,0.60
+137,Tanay Srivastava,CSE AIML,8.51,Oracle,P+I,0.60,0.60
+138,Pranav Kumar K,Information Technology (IT),8.31,Oracle,P+I,0.60,0.60
+139,Rayaan Salem,CSE AIML,8.17,Oracle CAGIU,P+I,0.60,0.60
+140,Rishabh Singh,CSE AIML,7.11,Oracle CAGIU,P+I,0.60,0.60
+141,Ruppikha Sree Shankar,Computer Science (CS),8.11,MSCI,I,0.60,0.60
+142,Nakshatra Bhandary,Computer Science (CS),9.34,MSCI,I,0.60,0.60
+143,Aarohi Jadav,Computer Science (CS),7.79,MSCI,I,0.60,0.60
+144,Suchit Gupta,CSE AIML,9.56,MSCI,I,0.60,0.60
+145,Medha Chawla,CSE AIML,9.20,MSCI,I,0.60,0.60
+146,Arihant Singhvi,CSE AIML,8.80,MSCI,I,0.60,0.60
+147,Hemang Doshi,Computer Science (CS),7.21,Oracle Lift Cloud,I,0.60,0.60
+148,Prisha Singh,Computer Science (CS),7.36,Oracle Lift Cloud,I,0.60,0.60
+149,Harsh Gupta,Data Science (DS),7.70,MSCI,I,0.60,0.60
+150,Shivang Gulati,Computer Science (CS),8.15,Komprise,P+I,0.50,0.50
+151,Kashyap Pobari,Computer Science (CS),8.69,Saviynt,P+I,0.50,0.50
+152,Nikhilesh Shashikumar,Information Technology (IT),8.44,Saviynt,P+I,0.50,0.50
+153,Adel Dsouza,Computer Science (CS),9.31,Bottomline,P+I,0.50,0.50
+154,Tanmay Saxena,Computer Science (CS),8.73,Bottomline,P+I,0.50,0.50
+155,Arnav Jagia,CSE AIML,9.18,Bottomline,P+I,0.50,0.50
+156,Akshay Reddy M V,Data Science (DS),9.17,Bottomline,P+I,0.50,0.50
+157,Amit Anand,Data Science (DS),8.57,Bottomline,P+I,0.50,0.50
+158,Palak Agarwal,Data Science (DS),8.53,Bottomline,P+I,0.50,0.50
+159,Kushagra Sharma,Information Technology (IT),8.78,Bottomline,P+I,0.50,0.50
+160,Srishti Singh,Computer Science (CS),9.45,SanDisk,P+I,0.50,0.50
+161,Aryaman Kukreja,Computer Science (CS),8.62,SanDisk,P+I,0.50,0.50
+162,Aditya Sankar,Information Technology (IT),8.78,SanDisk,P+I,0.50,0.50
+163,Saanvi Konde,Aeronautical (AE),8.14,FlipKart,P+I,0.50,0.50
+164,Arshpreet Kaur,Aeronautical (AE),8.03,FlipKart,P+I,0.50,0.50
+165,Ritika Doijode,Aeronautical (AE),7.60,FlipKart,P+I,0.50,0.50
+166,Nandana Kamath,Electronics & Communication (EC),8.27,FlipKart,P+I,0.50,0.50
+167,Ayushmita Bhattacharya,Electronics & Communication (EC),7.33,FlipKart,P+I,0.50,0.50
+168,Amogh Parasuram,Electronics & Communication (EC),7.12,FlipKart,P+I,0.50,0.50
+169,Niharika Muraleedharan Nambiar,Electronics & Instrumentation (E&I),8.01,FlipKart,P+I,0.50,0.50
+170,Karrunya Rajan,Electronics & Instrumentation (E&I),6.99,FlipKart,P+I,0.50,0.50
+171,Kunal Bhardwaj,Electronics & Instrumentation (E&I),6.73,FlipKart,P+I,0.50,0.50
+172,Radhika Tewari,Electronics & Instrumentation (E&I),6.45,FlipKart,P+I,0.50,0.50
+173,Ayush Bhasin,Mechanical (ME),6.10,FlipKart,P+I,0.50,0.50
+174,Yagini Rautela,Cyber Physical Systems (CPS),6.54,FlipKart,P+I,0.50,0.50
+175,Sayantan Sett,CSE AIML,8.25,NetApp,I,0.50,0.50
+176,Shrey Singh,CSE AIML,8.22,NetApp,I,0.50,0.50
+177,Varsha Sudarsan,Information Technology (IT),8.86,NetApp,I,0.50,0.50
+178,Prashanth J Kumar,Information Technology (IT),7.99,NetApp,I,0.50,0.50
+179,Anushka Pandey,Computer & Communication (CC),8.31,Nutanix,I,0.50,0.50
+180,Harsh Gondal,CSE AIML,8.14,Nutanix,I,0.50,0.50
+181,Pranav Arora,Cyber Physical Systems (CPS),8.86,Nutanix,I,0.50,0.50
+182,Rudransh Singh,Cyber Physical Systems (CPS),7.86,Nutanix,I,0.50,0.50
+183,Shashwat Harsh,Computer & Communication (CC),8.06,BlackRock,I,0.50,0.50
+184,Devansh Desai,Computer Science (CS),9.51,BlackRock,I,0.50,0.50
+185,Ananya Gour,Computer Science (CS),8.07,BlackRock,I,0.50,0.50
+186,Jayan Paliwal,Computer Science (CS),8.06,BlackRock,I,0.50,0.50
+187,Neha Nair,Data Science (DS),8.39,BlackRock,I,0.50,0.50
+188,Sahitya Kambhampati,Information Technology (IT),7.83,BlackRock,I,0.50,0.50
+189,Vippagunta Vidhu Sri Varenya,Computer & Communication (CC),8.41,BlackRock,I,0.50,0.50
+190,Vansh Jogani,Computer & Communication (CC),9.50,Eli Lilly,I,0.50,0.50
+191,Nikillan Rajesh,Computer & Communication (CC),8.65,Eli Lilly,I,0.50,0.50
+192,Akshaj Vidyarthy,Computer & Communication (CC),8.54,Eli Lilly,I,0.50,0.50
+193,Pragadeeshwar Kannan,Computer & Communication (CC),8.51,Eli Lilly,I,0.50,0.50
+194,Sindhu .,Computer & Communication (CC),8.40,Eli Lilly,I,0.50,0.50
+195,Adit Basak,Computer & Communication (CC),8.17,Eli Lilly,I,0.50,0.50
+196,Shreyash Srivastava,Computer & Communication (CC),8.08,Eli Lilly,I,0.50,0.50
+197,Siddharth Krishna S,Computer & Communication (CC),8.02,Eli Lilly,I,0.50,0.50
+198,Puregella Manas Bharadwaj,Computer & Communication (CC),7.55,Eli Lilly,I,0.50,0.50
+199,Pranamya Kulal,Computer Science (CS),9.65,Eli Lilly,I,0.50,0.50
+200,Ashutosh Verma,Computer Science (CS),9.29,Eli Lilly,I,0.50,0.50
+201,Pranay Goel,Computer Science (CS),8.23,Eli Lilly,I,0.50,0.50
+202,Rishit Mandal,Computer Science (CS),8.19,Eli Lilly,I,0.50,0.50
+203,Anirudha Desai,Computer Science (CS),8.06,Eli Lilly,I,0.50,0.50
+204,Neil J George,Computer Science (CS),8.01,Eli Lilly,I,0.50,0.50
+205,Uday Ojha,Computer Science (CS),7.72,Eli Lilly,I,0.50,0.50
+206,Medhaj Dubey,Computer Science (CS),7.07,Eli Lilly,I,0.50,0.50
+207,Gaurav Pradeep,CSE AIML,9.35,Eli Lilly,I,0.50,0.50
+208,Pranav Menon,CSE AIML,9.32,Eli Lilly,I,0.50,0.50
+209,Shashank Kumar,CSE AIML,8.44,Eli Lilly,I,0.50,0.50
+210,Aravind Shenoy,CSE AIML,8.40,Eli Lilly,I,0.50,0.50
+211,Aditya Katam,Cyber Physical Systems (CPS),6.50,Eli Lilly,I,0.50,0.50
+212,Shreya Umesh Poojary,Data Science (DS),8.66,Eli Lilly,I,0.50,0.50
+213,Siddhartha Modi,Data Science (DS),8.23,Eli Lilly,I,0.50,0.50
+214,Tanzeel Ashiq,Data Science (DS),7.68,Eli Lilly,I,0.50,0.50
+215,Rishik Bandi,Data Science (DS),7.31,Eli Lilly,I,0.50,0.50
+216,Shivam Bansal,Information Technology (IT),8.92,Eli Lilly,I,0.50,0.50
+217,Saptashwa Mandal,Information Technology (IT),8.75,Eli Lilly,I,0.50,0.50
+218,Sai Suman Datta Reddy Tangasani,Data Science (DS),7.54,Eli Lilly,I,0.50,0.50
+219,Ansh Mangla,Cyber Physical Systems (CPS),9.31,Amazon Support Engineer II,I,0.50,0.50
+220,Kumar Aditya Farmania,Computer Science (CS),8.91,Amazon Support Engineer II,I,0.50,0.50
+221,Paleti Ananya,Computer Science (CS),7.27,Amazon Support Engineer II,I,0.50,0.50
+222,Pranav Mathur,Data Science (DS),7.82,Amazon Support Engineer II,I,0.50,0.50
+223,Animesh Manik Patil,Electronics & Communication (EC),9.70,Intel,I,0.45,0.45
+224,Daya Sagar A J,Electronics & Communication (EC),9.43,Intel,I,0.45,0.45
+225,Sanskruti Sundara Rajan,Electronics & Communication (EC),9.22,Intel,I,0.45,0.45
+226,U Yash S Shetty,Electronics & Communication (EC),9.12,Intel,I,0.45,0.45
+227,Tejas Chinnappa Kodandera,Electronics & Communication (EC),9.10,Intel,I,0.45,0.45
+228,Paras Yashavant Dudhe,Electronics & Communication (EC),8.93,Intel,I,0.45,0.45
+229,Adithya Sriraman,Electronics & Communication (EC),8.74,Intel,I,0.45,0.45
+230,Aman Gupta,Electronics & Communication (EC),8.43,Intel,I,0.45,0.45
+231,ruchika jaiswal,Electronics & Communication (EC),8.03,Intel,I,0.45,0.45
+232,Aditi Santosh Javeri,Electronics & Communication (EC),7.41,Intel,I,0.45,0.45
+233,Avanish Money Srivats,Computer Science (CS),8.74,ARM,I,0.45,0.45
+234,Yadavalli Venkata Subba Rama Akash,Information Technology (IT),8.26,ARM,I,0.45,0.45
+235,Aditya Srivastava,Computer & Communication (CC),7.89,Philips,I,0.45,0.45
+236,Ashvin Ganesh,Computer Science (CS),7.80,Philips,I,0.45,0.45
+237,Rigved Anand Waradpande,Computer Science (CS),7.28,Philips,I,0.45,0.45
+238,Suhana Chandok,Cyber Physical Systems (CPS),7.48,Philips,I,0.45,0.45
+239,Ranveer Singh Sayal,Data Science (DS),7.61,Philips,I,0.45,0.45
+240,Abhinav Verma,Data Science (DS),7.45,Philips,I,0.45,0.45
+241,Anvay Shrivallabh Pujari,Data Science (DS),8.64,Philips,I,0.45,0.45
+242,Eric B John,Biomedical (BM),8.36,Resmed,I,0.45,0.45
+243,Sambhav Nath Jain,CSE AIML,7.74,HyperVerge (ML),I,0.45,0.45
+244,Aryan Gupta,CSE AIML,8.30,HyperVerge (DE),I,0.45,0.45
+245,Ritika Salimath,Computer & Communication (CC),8.83,ARM,I,0.45,0.45
+246,Aman Agarwal,CSE AIML,8.77,ARM,I,0.45,0.45
+247,Rishit Singh,Electronics & Communication (EC),9.31,ARM,I,0.45,0.45
+248,Ishaan Saigal,Electronics & Communication (EC),9.21,ARM,I,0.45,0.45
+249,Sparsh Srivastava,Electronics & Communication (EC),8.66,ARM,I,0.45,0.45
+250,Ridhima Shukla,Electronics & Communication (EC),8.30,ARM,I,0.45,0.45
+251,Padilam Yadav,Electronics & Communication (EC),7.13,ARM,I,0.45,0.45
+252,Aaryan Panigrahi,CSE AIML,9.47,HyperVerge (MLE),I,0.45,0.45
+253,Muhammad Zaid Hassan,CSE AIML,9.08,HyperVerge (MLE),I,0.45,0.45
+254,Shaurya Rathore,Data Science (DS),8.38,HyperVerge (MLE),I,0.45,0.45
+255,Siddharth Ghosh,Computer & Communication (CC),8.29,Cloudera,I,0.45,0.45
+256,Jeevandeep Shettigar,Computer Science (CS),9.27,Cloudera,I,0.45,0.45
+257,Hafeez Mohammed,CSE AIML,8.53,Cloudera,I,0.45,0.45
+258,Aditya Aggarwal,CSE AIML,8.02,Cloudera,I,0.45,0.45
+259,I A Ganit Cariappa,Biotechnology (BT),7.55,Bain,I,0.45,0.45
+260,Jahnavi Singh,Computer & Communication (CC),8.17,Bain,I,0.45,0.45
+261,Shaurya Mittal,Computer & Communication (CC),7.55,Bain,I,0.45,0.45
+262,Udeshya Kumar,Computer & Communication (CC),6.71,Bain,I,0.45,0.45
+263,Aditi Joshi,CSE AIML,9.30,Bain,I,0.45,0.45
+264,Akshaan Shetty,Cyber Physical Systems (CPS),7.39,Bain,I,0.45,0.45
+265,Mukta Joshi,Data Science (DS),8.66,Bain,I,0.45,0.45
+266,Kushagra Kapoor,Data Science (DS),8.50,Bain,I,0.45,0.45
+267,Nihar .,Electrical & Electronics (EE),6.89,Bain,I,0.45,0.45
+268,Kshitij Paliya,Information Technology (IT),8.02,Bain,I,0.45,0.45
+269,Vansh Verma,Information Technology (IT),7.77,Bain,I,0.45,0.45
+270,Tia Gupta,Information Technology (IT),7.54,Bain,I,0.45,0.45
+271,Shreyas Nair,Mechatronics (MT),6.30,Bain,I,0.45,0.45
+272,Krutarth Shah,Mechatronics (MT),6.26,Bain,I,0.45,0.45
+273,Ayushi Shukla,CSE AIML,8.74,NXP (SW),I,0.43,0.43
+274,Som Jain,Electronics & Communication (EC),8.26,NXP (HW),I,0.43,0.43
+275,Harshit Chopra,Electronics & Communication (EC),8.25,NXP (HW),I,0.43,0.43
+276,Meghdeep Roychoudhury,Computer & Communication (CC),8.07,Rystad Energy,P+I,0.42,0.42
+277,Ketan Goud Mogula,Computer Science (CS),9.53,Rystad Energy,P+I,0.42,0.42
+278,Mustafa Haji,CSE AIML,8.33,Rystad Energy,P+I,0.42,0.42
+279,Jewel Naga Satya Kruthi Penjarla,CSE AIML,8.14,Rystad Energy,P+I,0.42,0.42
+280,Keerthan C,Data Science (DS),9.60,Rystad Energy,P+I,0.42,0.42
+281,Sagnik Sengupta,Data Science (DS),8.87,Rystad Energy,P+I,0.42,0.42
+282,Shaniaa Sen,Data Science (DS),8.12,Rystad Energy,P+I,0.42,0.42
+283,Aryan Jha,Electronics & Instrumentation (E&I),7.63,Rystad Energy,P+I,0.42,0.42
+284,Aparna Muppidi,Information Technology (IT),7.71,Rystad Energy,P+I,0.42,0.42
+285,Anushree Mehta,Mechanical (ME),7.55,Rystad Energy,P+I,0.42,0.42
+286,Yash Rohan,CSE AIML,8.06,Relanto Global,P+I,0.42,0.42
+287,Gaury Jithesh,CSE AIML,7.32,Relanto Global,P+I,0.42,0.42
+288,Aniket Hazra,Computer & Communication (CC),7.70,GALE Agency,P+I,0.42,0.42
+289,Adithi Nr,Computer & Communication (CC),7.45,GALE Agency,P+I,0.42,0.42
+290,Divit Verma,Cyber Physical Systems (CPS),7.44,GALE Agency,P+I,0.42,0.42
+291,Prakhar Dwivedi,Electronics & Communication (EC),7.17,GALE Agency,P+I,0.42,0.42
+292,Swetha Vemulapalli,Information Technology (IT),7.57,GALE Agency,P+I,0.42,0.42
+293,Sanskriti Labroo,Computer Science (CS),8.40,GE Healthcare PPO,P+I,0.40,0.40
+294,Rushil Jalal,Computer & Communication (CC),7.94,GE Healthcare PPO,P+I,0.40,0.40
+295,Medini S Rao,Information Technology (IT),8.22,GE Healthcare PPO,P+I,0.40,0.40
+296,Kavish Dhandharia,Data Science (DS),9.20,Sabre (BA),P+I,0.40,0.40
+297,Akul Aggarwal,Data Science (DS),7.79,Sabre (BA),P+I,0.40,0.40
+298,Tarini Jhamb,Information Technology (IT),8.17,Sabre (BA),P+I,0.40,0.40
+299,Shivansh Arora,Information Technology (IT),7.97,Sabre (SE),P+I,0.40,0.40
+300,Mohith Charagondla,Computer Science (CS),8.60,HPE CPP,P+I,0.40,0.40
+301,Namrata Raj,Computer Science (CS),9.55,HPE CPP,P+I,0.40,0.40
+302,Sankalp Katyayanan,Computer Science (CS),8.82,HPE CPP,P+I,0.40,0.40
+303,Prakhar Arya,Computer Science (CS),8.66,HPE CPP,P+I,0.40,0.40
+304,Mohal Sahai,Electrical & Electronics (EE),7.94,GE Healthcare (HW),P+I,0.40,0.40
+305,Padmanabhan Sriram,Mechanical (ME),8.47,GE Healthcare (HW),P+I,0.40,0.40
+306,Gautham Nair,Mechanical (ME),7.52,GE Healthcare (HW),P+I,0.40,0.40
+307,Aditya Panga,Computer & Communication (CC),7.86,GE Healthcare (SW),P+I,0.40,0.40
+308,Prateek Mhatre,CSE AIML,8.23,GE Healthcare (SW),P+I,0.40,0.40
+309,Avishkar Sonawane,Electronics & Communication (EC),8.56,GE Healthcare (Embd),P+I,0.40,0.40
+310,Aneree Waghela,Computer & Communication (CC),7.58,Forma AI,P+I,0.40,0.40
+311,Nikunj Sharma,Information Technology (IT),7.22,Forma AI,P+I,0.40,0.40
+312,Mansi Sultania,Mechanical (ME),7.23,Forma AI,P+I,0.40,0.40
+313,Spreeha Garg,Electrical & Electronics (EE),7.67,Forma AI,P+I,0.40,0.40
+314,Abhimanyu Chouhan,Computer & Communication (CC),7.88,IDFC First bank,P+I,0.40,0.40
+315,Harsh Shah,Computer & Communication (CC),7.83,IDFC First bank,P+I,0.40,0.40
+316,Sparsh Mishra,Computer & Communication (CC),7.52,IDFC First bank,P+I,0.40,0.40
+317,Lavitra Srivastava,Computer Science (CS),9.14,IDFC First bank,P+I,0.40,0.40
+318,Lokesh Sagi,Information Technology (IT),7.37,IDFC First bank,P+I,0.40,0.40
+319,Janav Bhasin,CSE AIML,7.60,e6data,I,0.40,0.40
+320,Harshit Singhal,Computer Science (CS),9.36,SuperAGI,I,0.40,0.40
+321,Arnav Chugh,Information Technology (IT),8.79,SuperAGI,I,0.40,0.40
+322,Pavani Mishra,Electrical & Electronics (EE),8.46,STMicroelectronics,I,0.40,0.40
+323,Aarya Ujwal Dalvi,Electrical & Electronics (EE),7.81,STMicroelectronics,I,0.40,0.40
+324,Suyash Misra,Electrical & Electronics (EE),7.46,STMicroelectronics,I,0.40,0.40
+325,Girija Ashish Jain,Electrical & Electronics (EE),7.07,STMicroelectronics,I,0.40,0.40
+326,Mihir Kiran Kasibhotla,Electronics & Communication (EC),9.16,STMicroelectronics,I,0.40,0.40
+327,Kshitij Gupta,Electronics & Communication (EC),7.60,STMicroelectronics,I,0.40,0.40
+328,Bhavya Vats,Electronics & Communication (EC),7.58,STMicroelectronics,I,0.40,0.40
+329,CV Harshith Acharyulu,Electronics & Communication (EC),7.14,STMicroelectronics,I,0.40,0.40
+330,Mahesh Kumar Patra,Electronics & Instrumentation (E&I),7.59,STMicroelectronics,I,0.40,0.40
+331,Stuti Das,Electronics & Instrumentation (E&I),6.92,STMicroelectronics,I,0.40,0.40
+332,Vignesh Vijaysekhar,Biomedical (BM),7.74,The Porter,I,0.40,0.40
+333,Pragati Sakhuja,Biotechnology (BT),8.60,The Porter,I,0.40,0.40
+334,Yajya Puri,Chemical (CH),7.62,The Porter,I,0.40,0.40
+335,Devesh Aman,Electrical & Electronics (EE),6.50,The Porter,I,0.40,0.40
+336,Sanjit Roy,Electronics & Communication (EC),6.07,The Porter,I,0.40,0.40
+337,Ashutosh Swain,Mechanical (ME),8.90,The Porter,I,0.40,0.40
+338,Akshat Narinder Bhatia,Mechanical (ME),7.16,The Porter,I,0.40,0.40
+339,Akundi Pranav,Computer Science (CS),8.64,HPE Juniper Networks,I,0.40,0.40
+340,Omkar Prabhu,Computer Science (CS),8.57,HPE Juniper Networks,I,0.40,0.40
+341,Havish Shetty,Computer Science (CS),8.26,HPE Juniper Networks,I,0.40,0.40
+342,Jai Shah,CSE AIML,8.33,HPE Juniper Networks,I,0.40,0.40
+343,Yash Bharadwaj,Information Technology (IT),7.93,HPE Juniper Networks,I,0.40,0.40
+344,Venkata Sai Vishwanath Duggirala,Information Technology (IT),8.28,HPE Juniper Networks,I,0.40,0.40
+345,Vishwas Bachani,Information Technology (IT),7.60,HPE Juniper Networks,I,0.40,0.40
+346,Chaitanya Kannan,Computer & Communication (CC),7.69,ABInBev,I,0.40,0.40
+347,Gurkanwar Singh,Computer & Communication (CC),6.12,ABInBev,I,0.40,0.40
+348,Bhargav Sadari,CSE AIML,7.90,ABInBev,I,0.40,0.40
+349,Mahi Rahman,CSE AIML,6.00,ABInBev,I,0.40,0.40
+350,Aprameya Ansh,Information Technology (IT),6.41,ABInBev,I,0.40,0.40
+351,Aditya Wadgaonkar,Computer & Communication (CC),7.06,Kotak Mahindra Bank,I,0.40,0.40
+352,Abhinav Nambiar,CSE AIML,8.44,Kotak Mahindra Bank,I,0.40,0.40
+353,Soham Pavate,Cyber Physical Systems (CPS),8.93,Kotak Mahindra Bank,I,0.40,0.40
+354,Sai Suthirth Yeramalli,Information Technology (IT),6.82,Kotak Mahindra Bank,I,0.40,0.40
+355,Gajulapalle Sai Preetham,Computer Science (CS),8.09,Infineon,I,0.39,0.39
+356,Shruthi Ramprasad,Electrical & Electronics (EE),6.23,Infineon,I,0.39,0.39
+357,Harshul Sharma,Electronics & Communication (EC),8.06,Infineon,I,0.39,0.39
+358,Pratham Shetty,Computer Science (CS),9.64,WDC PPO,P+I,0.35,0.35
+359,Dillon Asher Almeida,Information Technology (IT),9.04,WDC PPO,P+I,0.35,0.35
+360,Ramya Anand,Electronics & Communication (EC),8.35,WDC PPO,P+I,0.35,0.35
+361,Steve Mathew Augustian,Electronics & Communication (EC),7.92,WDC PPO,P+I,0.35,0.35
+362,Aditya Raj Singh,Electronics & Communication (EC),8.32,WDC PPO,P+I,0.35,0.35
+363,Akshay Tumunuri,Computer & Communication (CC),8.51,SAP Labs (TH),P+I,0.35,0.35
+364,Prakhar Agarwal,Computer & Communication (CC),7.55,SAP Labs (TH),P+I,0.35,0.35
+365,Hima Sravya Kasaraneni,Computer Science (CS),7.79,SAP Labs (TH),P+I,0.35,0.35
+366,Ankur Monga,CSE AIML,8.83,SAP Labs (TH),P+I,0.35,0.35
+367,Shragvi Raviraj,Information Technology (IT),8.90,SAP Labs (TH),P+I,0.35,0.35
+368,Diksha Bhartia,Information Technology (IT),8.58,SAP Labs (TH),P+I,0.35,0.35
+369,Roshan Kumar,Information Technology (IT),8.09,SAP Labs (TH),P+I,0.35,0.35
+370,Vansh Kakkar,Information Technology (IT),7.97,SAP Labs (TH),P+I,0.35,0.35
+371,Aditya Kumar,Information Technology (IT),7.70,SAP Labs (TH),P+I,0.35,0.35
+372,Ansh Gagneja,Information Technology (IT),7.06,SAP Labs (TH),P+I,0.35,0.35
+373,Harshita Harshita,Computer & Communication (CC),7.60,SAP Labs (TDC),P+I,0.35,0.35
+374,Satvik Agrawal,Computer & Communication (CC),7.41,SAP Labs (TDC),P+I,0.35,0.35
+375,Adithi Angeerasa,Computer Science (CS),7.74,SAP Labs (TDC),P+I,0.35,0.35
+376,Shivansh Parekh,Data Science (DS),9.40,SAP Labs (TDC),P+I,0.35,0.35
+377,Debangshi Kundu,Data Science (DS),9.08,SAP Labs (TDC),P+I,0.35,0.35
+378,Nishtha Singh M M,Electronics & Communication (EC),7.98,SAP Labs (TDC),P+I,0.35,0.35
+379,Amrith Shet,Information Technology (IT),7.87,SAP Labs (TDC),P+I,0.35,0.35
+380,Manas Changlani,Information Technology (IT),7.70,SAP Labs (TDC),P+I,0.35,0.35
+381,Sashreek Uyyala,Computer & Communication (CC),7.26,Schneider Electric,P+I,0.35,0.35
+382,Rachit Prakash,Computer & Communication (CC),7.03,Schneider Electric,P+I,0.35,0.35
+383,Nidhi Ashok,Electrical & Electronics (EE),8.12,Schneider Electric,P+I,0.35,0.35
+384,Sanjana Bisht,Electronics & Communication (EC),8.26,Schneider Electric,P+I,0.35,0.35
+385,Sai Bhavik Rayanki,Electronics & Communication (EC),7.12,Schneider Electric,P+I,0.35,0.35
+386,Abhyudaya Singh,Electronics & Communication (EC),7.11,Schneider Electric,P+I,0.35,0.35
+387,Alakhchandra Ladha,Mechatronics (MT),8.15,Schneider Electric,P+I,0.35,0.35
+388,Shubham Sawarn,Mechatronics (MT),8.79,Schneider Electric,P+I,0.35,0.35
+389,Advitya Aggarwal,Computer Science (CS),6.28,PWC AC,P+I,0.35,0.35
+390,Pasumarty Meher Jahnavi,Information Technology (IT),6.40,PWC AC,P+I,0.35,0.35
+391,Mukkutinal Avikshit Panicker,Computer & Communication (CC),6.50,Ericsson,P+I,0.35,0.35
+392,Siddharth Agrawal,Computer & Communication (CC),9.12,SAP Labs,I,0.35,0.35
+393,Shashaank Singh,Data Science (DS),8.98,SAP Labs,I,0.35,0.35
+394,Aditya Singh,Data Science (DS),7.63,SAP Labs,I,0.35,0.35
+395,Diya Prashanth,Mechatronics (MT),8.20,Schneider Electric,I,0.35,0.35
+396,Prathamesh Ulhas Padiyar,Computer Science (CS),6.80,HyperVerge (SDE),I,0.35,0.35
+397,Kiran Kishore,Information Technology (IT),7.05,HyperVerge (Jr SA),I,0.35,0.35
+398,Aanya Shantaram,Computer & Communication (CC),9.21,ABB,P+I,0.30,0.30
+399,Lionel Serrao,Data Science (DS),7.36,ABB,P+I,0.30,0.30
+400,Unnati Dubey,Data Science (DS),7.53,IBM,P+I,0.30,0.30
+401,Lavanya Prabhu,Information Technology (IT),7.59,IBM,P+I,0.30,0.30
+402,Diya Nair,Computer & Communication (CC),7.69,IBM,P+I,0.30,0.30
+403,Anoushka Smriti,CSE AIML,8.42,IBM,P+I,0.30,0.30
+404,Shreya Sameer,CSE AIML,7.65,IBM,P+I,0.30,0.30
+405,Vaibhavi Komarraju,Cyber Physical Systems (CPS),8.59,IBM,P+I,0.30,0.30
+406,Shriya Bhat,Data Science (DS),8.62,IBM,P+I,0.30,0.30
+407,Aadhya Samineni,Information Technology (IT),7.75,IBM,P+I,0.30,0.30
+408,Prachi Bhat,Computer & Communication (CC),7.45,IBM,P+I,0.30,0.30
+409,Reeva Nanda,CSE AIML,9.13,IBM,P+I,0.30,0.30
+410,Mihika Goyal,Computer & Communication (CC),8.42,IBM,P+I,0.30,0.30
+411,Manjyot Saini,Computer Science (CS),7.37,IBM,P+I,0.30,0.30
+412,Rishita Garg,Information Technology (IT),7.46,IBM,P+I,0.30,0.30
+413,Deeksha Prasad,Information Technology (IT),7.04,IBM,P+I,0.30,0.30
+414,Svadha Dey,CSE AIML,8.31,IBM,P+I,0.30,0.30
+415,Khushi Sethi,Information Technology (IT),8.16,IBM,P+I,0.30,0.30
+416,Aniruddh Ballal,Information Technology (IT),7.98,Qwixpert,P+I,0.30,0.30
+417,Pratham Sudheendra Moodbidri,Information Technology (IT),7.35,Qwixpert,P+I,0.30,0.30
+418,Kanaad Ghaisas,Electronics & Instrumentation (E&I),7.36,Qwixpert,P+I,0.30,0.30
+419,Aryan Arora,Computer & Communication (CC),7.66,Simnovus Technology,P+I,0.30,0.30
+420,Ansh Srivastava,Computer Science (CS),8.82,Simnovus Technology,P+I,0.30,0.30
+421,Bradley Glasfurd,Computer Science (CS),8.39,Simnovus Technology,P+I,0.30,0.30
+422,Harshit Dugar,Information Technology (IT),7.64,Simnovus Technology,P+I,0.30,0.30
+423,Siddharth Reddy Gangireddy,Computer Science (CS),7.60,Simnovus Technology,P+I,0.30,0.30
+424,Adithi Shetty N,Electrical & Electronics (EE),8.21,Cynlr,P+I,0.30,0.30
+425,Kartik Goklani,Computer & Communication (CC),8.29,Super AGI,P+I,0.30,0.30
+426,Rohan Khandelwal,Computer Science (CS),8.32,Super AGI,P+I,0.30,0.30
+427,Uday Sharma,Computer Science (CS),8.15,Super AGI,P+I,0.30,0.30
+428,Venkata Siva Sai Jatvish Yechuri,Computer Science (CS),7.88,Super AGI,P+I,0.30,0.30
+429,Sai Charan Sanganwar,Information Technology (IT),8.69,Super AGI,P+I,0.30,0.30
+430,Nitant Vaidya,Information Technology (IT),8.19,Super AGI,P+I,0.30,0.30
+431,Shreyas C S,Computer & Communication (CC),8.08,IBM,P+I,0.30,0.30
+432,Gaurav Nayak H,Computer Science (CS),9.34,IBM,P+I,0.30,0.30
+433,Aarav Shirvoikar,Information Technology (IT),8.73,IBM,P+I,0.30,0.30
+434,Sathwik Bhandarkar,Information Technology (IT),8.65,IBM,P+I,0.30,0.30
+435,Karthikeyan J,CSE AIML,7.90,Namma Yatri,P+I,0.30,0.30
+436,Renuguntla Jaipratham,CSE AIML,7.67,Cashfree Payments,P+I,0.30,0.30
+437,Mandar Sanjay Chaudhari,Data Science (DS),8.99,Schlumberger,I,0.30,0.30
+438,Shravani,Data Science (DS),8.14,Schlumberger,I,0.30,0.30
+439,Ritika Gupta,Data Science (DS),8.00,Schlumberger,I,0.30,0.30
+440,Shreeraksha Arunachala Chandavar,Data Science (DS),7.01,Schlumberger,I,0.30,0.30
+441,Ayushi Ashwin Vaghasiya,Data Science (DS),6.68,Schlumberger,I,0.30,0.30
+442,Arnav Garg,Electronics & Communication (EC),7.63,Schlumberger,I,0.30,0.30
+443,Anirudh Agrawal,Data Science (DS),9.09,Samsung Electro Mechanics,I,0.30,0.30
+444,Shrinidhi Deshmukh,Mechanical (ME),7.69,Honeywell,I,0.30,0.30
+445,Aliasger Zaki,Chemical (CH),7.29,Honeywell,I,0.30,0.30
+446,Tushar Sharma,Computer Science (CS),6.88,Honeywell,I,0.30,0.30
+447,Urvi Todi,Electrical & Electronics (EE),8.12,Honeywell,I,0.30,0.30
+448,Annie Tiru,Electrical & Electronics (EE),7.85,Honeywell,I,0.30,0.30
+449,Vinutha Nayak,Electrical & Electronics (EE),7.76,Honeywell,I,0.30,0.30
+450,Vaibhav Agarwal,Electrical & Electronics (EE),7.60,Honeywell,I,0.30,0.30
+451,Mudit Agarwal,Electronics & Communication (EC),8.40,Honeywell,I,0.30,0.30
+452,Sanfer Rodrigues,Electronics & Communication (EC),8.05,Honeywell,I,0.30,0.30
+453,Omkar Bhusannavar,Electronics & Communication (EC),7.17,Honeywell,I,0.30,0.30
+454,Diya Nisar,Electronics & Communication (EC),6.71,Honeywell,I,0.30,0.30
+455,Prateekshaa Sahoo,Electronics & Instrumentation (E&I),6.55,Honeywell,I,0.30,0.30
+456,Rajavarshan M,Information Technology (IT),7.64,Honeywell,I,0.30,0.30
+457,Arjun Sanjay,Information Technology (IT),7.31,Honeywell,I,0.30,0.30
+458,Vedanti Dhar,Information Technology (IT),7.00,Honeywell,I,0.30,0.30
+459,Naitik Gaddikeri,Information Technology (IT),6.95,Honeywell,I,0.30,0.30
+460,Abhisar Yadav,Information Technology (IT),6.92,Honeywell,I,0.30,0.30
+461,Manan Bhatia,Information Technology (IT),6.72,Honeywell,I,0.30,0.30
+462,Mahika Pramodh,Chemical (CH),9.50,Honeywell,I,0.30,0.30
+463,Aseem Anand,Computer Science (CS),8.46,Honeywell,I,0.30,0.30
+464,Sreemahi Sivakami Gangadharan,Computer Science (CS),8.02,Honeywell,I,0.30,0.30
+465,Venkat Shiva Koushik Muvva,Computer Science (CS),7.42,Honeywell,I,0.30,0.30
+466,Chinmayi Bhat,Computer Science (CS),6.89,Honeywell,I,0.30,0.30
+467,Jishnu Chattoraj,Electronics & Communication (EC),7.93,Honeywell,I,0.30,0.30
+468,Yajan Vijayvargiya,Electronics & Instrumentation (E&I),7.23,Honeywell,I,0.30,0.30
+469,Akash Siddarth Navamani,Mechanical (ME),7.50,Airbus,I,0.30,0.30
+470,Shyam Sunder Ramadoss,Electronics & Communication (EC),7.37,Information Technology (IT),I,0.30,0.30
+471,Parankusam Venkat Rohan,Mechatronics (MT),8.17,Volvo,I,0.30,0.30
+472,Shravani Bhor,Computer & Communication (CC),7.38,Change Jar Technologies,I,0.30,0.30
+473,Chirag P C,Data Science (DS),7.26,Change Jar Technologies,I,0.30,0.30
+474,Samarth Vinod,Aeronautical (AE),8.53,LeadSquared (CSM),I,0.27,0.27
+475,Sayanbhuba Sahoo,Automobile (AU),8.24,LeadSquared (CSM),I,0.27,0.27
+476,Rohan Satya Venuturupalli,Electronics & Instrumentation (E&I),6.67,LeadSquared (CSM),I,0.27,0.27
+477,Amogh Khandelwal,Computer & Communication (CC),8.36,LeadSquared (BA US),I,0.27,0.27
+478,Mahesh Soni,Computer & Communication (CC),6.23,LeadSquared (BA US),I,0.27,0.27
+479,Shreya Sinha,Computer Science (CS),6.24,LeadSquared (BA US),I,0.27,0.27
+480,Nithish Penumetsa,Cyber Physical Systems (CPS),7.88,LeadSquared (BA US),I,0.27,0.27
+481,Arnavdeep Amandeep Singh,Mechanical (ME),6.85,LeadSquared (BA US),I,0.27,0.27
+482,Kartikey Srivastava,CSE AIML,6.36,LeadSquared (BA US),I,0.27,0.27
+483,Prince Roy,Electronics & Communication (EC),6.15,LeadSquared (BA US),I,0.27,0.27
+484,Shreya J,Biomedical (BM),6.13,LeadSquared (SDR),I,0.27,0.27
+485,Madhu Ramachandran,Chemical (CH),7.88,LeadSquared (SDR US),I,0.27,0.27
+486,Bhavyaa Aggarwal,Computer Science (CS),6.92,LeadSquared (SDR),I,0.27,0.27
+487,Akshaya Velliangiri,Electronics & Communication (EC),6.21,LeadSquared (SDR),I,0.27,0.27
+488,Gaurav Khare,Mechanical (ME),6.58,LeadSquared (SDR),I,0.27,0.27
+489,Apoorv Khemani,Mechanical (ME),8.73,Twara Robotics,P+I,0.25,0.25
+490,Tarun Kasa,Mechatronics (MT),9.31,Twara Robotics,P+I,0.25,0.25
+491,Gagan Menderkar,Mechatronics (MT),6.90,Twara Robotics,P+I,0.25,0.25
+492,Ayush Prabhu,Computer Science (CS),8.96,EGDK,P+I,0.25,0.25
+493,Aryan Singh,Computer Science (CS),8.31,EGDK,P+I,0.25,0.25
+494,Souvik Goswami,Computer Science (CS),8.26,EGDK,P+I,0.25,0.25
+495,Ayush Sinha,Computer Science (CS),8.26,EGDK,P+I,0.25,0.25
+496,Neeraj Kumar,Computer Science (CS),8.15,EGDK,P+I,0.25,0.25
+497,J Anish Babu,Data Science (DS),7.97,EGDK,P+I,0.25,0.25
+498,Bharath Kumar,CSE AIML,7.02,Sigmoid Analytics,P+I,0.25,0.25
+499,Dhimanth Singh,CSE AIML,8.16,Sigmoid Analytics,P+I,0.25,0.25
+500,Kunal Surtani,CSE AIML,7.55,Sigmoid Analytics,P+I,0.25,0.25
+501,Amey Mandar Joshi,Data Science (DS),7.28,Sigmoid Analytics,P+I,0.25,0.25
+502,Ronit Kochar,Data Science (DS),7.89,Sigmoid Analytics,P+I,0.25,0.25
+503,Madhur Rao,Information Technology (IT),7.61,Sigmoid Analytics,P+I,0.25,0.25
+504,Siddhartha M H,Information Technology (IT),7.98,Sigmoid Analytics,P+I,0.25,0.25
+505,Anup Pai B,Computer Science (CS),7.57,UD Trucks,P+I,0.25,0.25
+506,Sayan Dutta,Computer Science (CS),6.91,Incedo,P+I,0.25,0.25
+507,Sesha Sai Aditya Kumar Tripuramallu,CSE AIML,7.16,Incedo,P+I,0.25,0.25
+508,Vansshi Joshiee,Cyber Physical Systems (CPS),7.23,Incedo,P+I,0.25,0.25
+509,Nandana Nair,Cyber Physical Systems (CPS),6.99,Incedo,P+I,0.25,0.25
+510,Aryan Gati,Data Science (DS),7.15,Incedo,P+I,0.25,0.25
+511,Pranay Agarwal,Data Science (DS),6.93,Incedo,P+I,0.25,0.25
+512,Joel Alex Chandy,Data Science (DS),6.93,Incedo,P+I,0.25,0.25
+513,Aayush Sharma,Computer & Communication (CC),6.85,Mphasis,P+I,0.25,0.25
+514,Adivya Tripathi,Computer & Communication (CC),6.83,Mphasis,P+I,0.25,0.25
+515,Aditya Kalme,Information Technology (IT),7.34,Mphasis,P+I,0.25,0.25
+516,Akshaya Ashok,Biomedical (BM),7.77,Siemens Healthineers,P+I,0.25,0.25
+517,Sanjana Chaturvedi,Mechanical (ME),7.46,Twara Robotics,I,0.25,0.25
+518,Sanskriti Srivastava,Biomedical (BM),6.50,Siemens Healthineers,I,0.25,0.25
+519,Srikar Bharadwaj R,Mechatronics (MT),8.55,Siemens Healthineers,I,0.25,0.25
+520,Uday Rajan,Industrial Engineering (IE),7.11,Addverb,I,0.25,0.25
+521,Mohammed Sahil Nakhuda,Mechatronics (MT),8.21,Addverb,I,0.25,0.25
+522,Ojas Rathi,Mechatronics (MT),7.40,Addverb,I,0.25,0.25
+523,Raj Whawal,Mechatronics (MT),6.65,Addverb,I,0.25,0.25
+524,Jay Jithendra,Computer & Communication (CC),8.30,Siemens Technology,I,0.25,0.25
+525,Naman Kumar,Computer & Communication (CC),8.14,Siemens Technology,I,0.25,0.25
+526,Akanksha Mukhopadhyay,Data Science (DS),7.47,Siemens Technology,I,0.25,0.25
+527,Harshini Manivannan,Computer Science (CS),7.45,Siemens Technology,I,0.25,0.25
+528,Ishaan Aggarwal,Computer Science (CS),8.91,Siemens Technology,I,0.25,0.25
+529,Divej Ahuja,Information Technology (IT),7.50,Siemens Technology,I,0.25,0.25
+530,Sai Harshini U,CSE AIML,7.63,Siemens Technology,I,0.25,0.25
+531,Rebanta Mandal,Computer & Communication (CC),7.64,UD Trucks,I,0.25,0.25
+532,Amritya Singh,Computer Science (CS),6.83,Konduit,I,0.25,0.25
+533,Kush Varu,Computer Science (CS),7.43,The AI Catalyst,I,0.25,0.25
+534,Tejas Mohandas Patil,CSE AIML,6.67,The AI Catalyst,I,0.25,0.25
+535,Aditya Ayushman,Information Technology (IT),7.07,The AI Catalyst,I,0.25,0.25
+536,Bhuvan Battu,Data Science (DS),8.56,Data Axle,I,0.25,0.25
+537,Nagbhushan Pai,Cyber Physical Systems (CPS),7.69,Data Axle,I,0.25,0.25
+538,Reva Laghate,Biomedical (BM),8.48,Quantiphi,I,0.24,0.24
+539,Advait Udas,Information Technology (IT),8.26,Quantiphi,I,0.24,0.24
+540,Abhimanyu Garg,Mechanical (ME),7.51,Quantiphi,I,0.24,0.24
+541,Fahad Shahab,CSE AIML,8.02,GEP Worldwide,P+I,0.21,0.21
+542,Sahil Arya,Mechanical (ME),8.40,GEP Worldwide,P+I,0.21,0.21
+543,Armaan Kapur,Mechatronics (MT),8.20,GEP Worldwide,P+I,0.21,0.21
+544,Krish Panchal,Biotechnology (BT),7.60,GEP Worldwide,P+I,0.21,0.21
+545,Ammapuram Sri Harsha,CSE AIML,8.89,EY India,P+I,0.21,0.21
+546,Pallavi Kailas,CSE AIML,7.63,EY India,P+I,0.21,0.21
+547,Piyush Rangdal,Information Technology (IT),8.47,EY India,P+I,0.21,0.21
+548,Akshat Jindal,Information Technology (IT),7.71,EY India,P+I,0.21,0.21
+549,Vedanth Goenka,Information Technology (IT),7.68,EY India,P+I,0.21,0.21
+550,Ishani Dey,Electrical & Electronics (EE),6.16,KPMG Digital Trust,P+I,0.20,0.20
+551,Mukund Agarwal,Information Technology (IT),7.35,KPMG Digital Trust,P+I,0.20,0.20
+552,Annjoe Baby,Mechatronics (MT),6.92,KPMG Digital Trust,P+I,0.20,0.20
+553,Soham Sadhukhan,Biotechnology (BT),7.76,KPMG,P+I,0.20,0.20
+554,Eshin Ahuja,Computer & Communication (CC),6.62,KPMG,P+I,0.20,0.20
+555,Gaurav Gupta,Computer Science (CS),6.69,KPMG,P+I,0.20,0.20
+556,Chakradhar Reddy Muddasani,Computer Science (CS),6.56,KPMG,P+I,0.20,0.20
+557,Sarvagya Singh,CSE AIML,7.80,KPMG,P+I,0.20,0.20
+558,Abhijith Pai,CSE AIML,6.93,KPMG,P+I,0.20,0.20
+559,Sumanth Oruganti,Data Science (DS),6.34,KPMG,P+I,0.20,0.20
+560,Spandana Guruvugari,Cyber Physical Systems (CPS),7.00,KPMG,P+I,0.20,0.20
+561,Sankalp Heda,Cyber Physical Systems (CPS),7.28,KPMG,P+I,0.20,0.20
+562,Aditya Thakur,Electrical & Electronics (EE),7.26,KPMG,P+I,0.20,0.20
+563,Samarth Madhivanan,Electronics & Communication (EC),7.11,KPMG,P+I,0.20,0.20
+564,Kabir Som,Electronics & Instrumentation (E&I),6.43,KPMG,P+I,0.20,0.20
+565,Sarthak Landge,Mechanical (ME),6.74,KPMG,P+I,0.20,0.20
+566,Madhav Visvanathan,Mechanical (ME),6.95,KPMG,P+I,0.20,0.20
+567,Preetham Santhosh,Industrial Engineering (IE),7.04,KPMG,P+I,0.20,0.20
+568,Siyan Thomas,Information Technology (IT),7.27,KPMG,P+I,0.20,0.20
+569,Saatvik Raj,Electrical & Electronics (EE),6.12,KPMG GRCS Real Estate,P+I,0.20,0.20
+570,Adit Kanchan,Civil (CV),6.54,KPMG GRCS Real Estate,P+I,0.20,0.20
+571,Derin Biju,Civil (CV),6.68,KPMG GRCS Real Estate,P+I,0.20,0.20
+572,Aryan Raj,Information Technology (IT),8.45,Axxela,I,0.20,0.20
+573,Jalla Varshith,Computer Science (CS),6.99,Suprajit,I,0.20,0.20
+574,Rohan Pai,Electrical & Electronics (EE),7.64,Suprajit,I,0.20,0.20
+575,Adithya Om Saidupally,Electrical & Electronics (EE),7.40,Suprajit,I,0.20,0.20
+576,Preksha Bhansali,Electrical & Electronics (EE),6.70,Suprajit,I,0.20,0.20
+577,Soham Korday,Electronics & Communication (EC),7.38,Suprajit,I,0.20,0.20
+578,Aditya Mathur,Electronics & Instrumentation (E&I),7.42,Suprajit,I,0.20,0.20
+579,Srajan,Electronics & Instrumentation (E&I),6.96,Suprajit,I,0.20,0.20
+580,Rashi Gokharu,Electronics & Instrumentation (E&I),6.88,Suprajit,I,0.20,0.20
+581,Dsouza Noel,Automobile Engineering (AU),9.39,Suprajit,I,0.20,0.20
+582,Samarth Bhagath,Mechanical (ME),9.57,Suprajit,I,0.20,0.20
+583,Sohan Y,Mechanical (ME),8.49,Suprajit,I,0.20,0.20
+584,Abijith Menon,Mechanical (ME),8.45,Suprajit,I,0.20,0.20
+585,Siddharth Baid,Mechanical (ME),7.79,Suprajit,I,0.20,0.20
+586,Udit Rao,Mechanical (ME),7.48,Suprajit,I,0.20,0.20
+587,Mahesh Kumar,Mechanical (ME),7.43,Suprajit,I,0.20,0.20
+588,Siddhanth Santhosh,Mechanical (ME),7.31,Suprajit,I,0.20,0.20
+589,Lakshmi Narasimham Karlapalem,Mechanical (ME),8.73,Caterpillar,I,0.20,0.20
+590,Shishir R,Computer & Communication (CC),7.37,Mangalore Infotech (Unicourt),P+I,0.18,0.18
+591,Anshuman Anshuman,Computer Science (CS),8.64,Impact Analytics,P+I,0.15,0.15
+592,Parshwa Jain,Computer Science (CS),7.61,Impact Analytics,P+I,0.15,0.15
+593,Parth Prasun,CSE AIML,7.55,Impact Analytics,P+I,0.15,0.15
+594,Nayavanth Yogi,Data Science (DS),8.30,Impact Analytics,P+I,0.15,0.15
+595,Harmantaj Bhatia,CSE AIML,7.65,ITC Infotech,P+I,0.15,0.15
+596,Dakshaneshvar Porko Mariappan Thopan Senthiappan Mariappan Nagalingam,Electronics & Instrumentation (E&I),7.60,ITC Infotech,P+I,0.15,0.15
+597,Dhruv Shandilya,Data Science (DS),6.94,Equifax,P+I,0.15,0.15
+598,Chaitanya Paldhe,Data Science (DS),6.64,Equifax,P+I,0.15,0.15
+599,Adityaraj Singha,Computer & Communication (CC),7.26,L&T Finance,I,0.15,0.15
+600,Pulkit Khemani,Electrical & Electronics (EE),6.91,L&T Finance,I,0.15,0.15
+601,Sanvi Shetty,Information Technology (IT),6.60,L&T Finance,I,0.15,0.15
+602,Piyush Ganti,Mechanical (ME),7.18,Fracktal Works,I,0.10,0.10
+603,Deepanshu Goel,Mechatronics (MT),7.81,Fracktal Works,I,0.10,0.10
+604,Anirudh Mohta,Mechatronics (MT),7.42,Fracktal Works,I,0.10,0.10
+605,Milind Kiran,Mechatronics (MT),7.41,Fracktal Works,I,0.10,0.10
