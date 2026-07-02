@@ -78,6 +78,12 @@ export default function App() {
   const [internBranch, setInternBranch] = useState("");
   const [internCompany, setInternCompany] = useState("");
 
+  // Eligibility state
+  const [eligibilityData, setEligibilityData] = useState([]);
+  const [eligibilitySearch, setEligibilitySearch] = useState("");
+  const [eligibilityBranch, setEligibilityBranch] = useState("");
+  const [eligibilityBranches, setEligibilityBranches] = useState([]);
+
   // Active tab
   const [tab, setTab] = useState("table");
 
@@ -247,6 +253,42 @@ export default function App() {
     });
   }, [internSearch, internBranch, internCompany, internPage]);
 
+  // ── Eligibility effect ────────────────────────────────────────────
+  useEffect(() => {
+    Papa.parse("/eligibility.csv", {
+      download: true,
+      header: true,
+      skipEmptyLines: true,
+      complete: (results) => {
+        const rows = results.data;
+
+        // collect all unique branch codes across all rows
+        const allBranchCodes = new Set();
+        rows.forEach((r) => {
+          if (r.Branches?.trim().toLowerCase() === "all") return;
+          r.Branches?.split(",").forEach((b) => allBranchCodes.add(b.trim()));
+        });
+        setEligibilityBranches(["All", ...Array.from(allBranchCodes).sort()]);
+
+        const filtered = rows.filter((row) => {
+          const matchesSearch =
+            !eligibilitySearch ||
+            row.Company?.toLowerCase().includes(eligibilitySearch.toLowerCase());
+
+          const matchesBranch =
+            !eligibilityBranch ||
+            eligibilityBranch === "All" ||
+            row.Branches?.trim().toLowerCase() === "all" ||
+            row.Branches?.split(",").map((b) => b.trim()).includes(eligibilityBranch);
+
+          return matchesSearch && matchesBranch;
+        });
+
+        setEligibilityData(filtered);
+      },
+    });
+  }, [eligibilitySearch, eligibilityBranch]);
+
   const handleSort = (col) => {
     if (sort === col) setOrder((o) => (o === "asc" ? "desc" : "asc"));
     else { setSort(col); setOrder("asc"); }
@@ -270,6 +312,7 @@ export default function App() {
         <button className={`tab-btn ${tab === "analytics" ? "active" : ""}`} onClick={() => setTab("analytics")}>📊 Analytics</button>
         <button className={`tab-btn ${tab === "interns" ? "active" : ""}`} onClick={() => setTab("interns")}>🎓 Intern Data</button>
         <button className={`tab-btn ${tab === "internAnalytics" ? "active" : ""}`} onClick={() => setTab("internAnalytics")}>📈 Intern Analytics</button>
+        <button className={`tab-btn ${tab === "eligibility" ? "active" : ""}`} onClick={() => setTab("eligibility")}>✅ Eligibility Criteria</button>
       </div>
 
       {/* ── PLACEMENT TABLE TAB ── */}
@@ -451,6 +494,83 @@ export default function App() {
                 </ResponsiveContainer>
               </div>
             </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── ELIGIBILITY CRITERIA TAB ── */}
+      {tab === "eligibility" && (
+        <section className="table-section">
+          <div className="filters">
+            <input
+              className="filter-input search"
+              placeholder="🔍 Search company..."
+              value={eligibilitySearch}
+              onChange={(e) => setEligibilitySearch(e.target.value)}
+            />
+            <select
+              className="filter-input"
+              value={eligibilityBranch}
+              onChange={(e) => setEligibilityBranch(e.target.value)}
+            >
+              <option value="">All Branches</option>
+              {eligibilityBranches.map((b) => (
+                <option key={b} value={b}>{b}</option>
+              ))}
+            </select>
+            <button className="clear-btn" onClick={() => { setEligibilitySearch(""); setEligibilityBranch(""); }}>✕ Clear</button>
+          </div>
+
+          <div className="result-meta">
+            Showing <strong>{eligibilityData.length}</strong> companies
+          </div>
+
+          <div className="table-wrapper">
+            <table className="data-table">
+              <thead>
+                <tr>
+                  <th>Company</th>
+                  <th>Stipend/Month</th>
+                  <th>Min CGPA</th>
+                  <th>Duration (months)</th>
+                  <th>Eligible Branches</th>
+                  <th>Offers</th>
+                </tr>
+              </thead>
+              <tbody>
+                {eligibilityData.map((row, i) => {
+                  const isAll = row.Branches?.trim().toLowerCase() === "all";
+                  const stipend = parseInt(row.Stipend || 0);
+                  const cgpa = parseFloat(row["CGPA "] || row.CGPA || 0);
+                  return (
+                    <tr key={i} className="data-row">
+                      <td className="company-cell">{row.Company}</td>
+                      <td>
+                        <span className="ctc">
+                          {stipend > 0 ? `₹${stipend.toLocaleString()}` : "—"}
+                        </span>
+                      </td>
+                      <td>
+                        <span className="cgpa">{cgpa > 0 ? cgpa : "—"}</span>
+                      </td>
+                      <td className="muted">{row.Duration || "—"}</td>
+                      <td>
+                        {isAll ? (
+                          <span className="branch-tag" style={{ background: "#00e5a020", color: "#00e5a0" }}>All Branches</span>
+                        ) : (
+                          <div className="branch-pills">
+                            {row.Branches?.split(",").map((b) => (
+                              <span key={b.trim()} className="branch-tag">{b.trim()}</span>
+                            ))}
+                          </div>
+                        )}
+                      </td>
+                      <td className="muted">{row["Total Offers"] || "—"}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
           </div>
         </section>
       )}
